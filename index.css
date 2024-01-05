@@ -118,6 +118,8 @@ section .title::after {
   padding: 30px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
+  background: transparent;
+  backdrop-filter: blur(20px);
 }
 
 .navbar.sticky {
